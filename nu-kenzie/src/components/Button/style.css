@@ -1,0 +1,105 @@
+.button{
+    height: 48px;
+    width: 129px;
+    left: 20px;
+    top: 20px;
+    border-radius: 8px;
+    border: 1.4px solid rgba(var(--color-primary),1);
+    padding: 13px 20px 13px 20px;
+    background-color: rgba(var(--color-primary), 1);
+    color: rgba(var(--white), 1);
+}
+
+.button:hover{
+    color: rgba(var(--color-primary-2), 1);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.button-form{
+    height: 48px;
+    width: 90%;
+    left: 20px;
+    top: 20px;
+    border-radius: 8px;
+    border: 1.4px solid rgba(var(--color-primary),1);
+    padding: 13px 20px 13px 20px;
+    background-color: rgba(var(--color-primary), 1);
+    color: rgba(var(--grey-3), 1);
+}
+
+.button-form:hover{
+    color: rgba(var(--grey-1), 1);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.default{
+    display: flex;
+    height: 40px;
+    width: 58px;
+    border-radius: 8px;
+    padding: 15px;
+    color: rgba(var(--grey-3),1);
+    background-color: rgba(var(--grey-2),1);
+    border: 1.4px solid rgba(var(--grey-2),1);
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.default:hover{
+    color: rgba(var(--grey-2),1);
+    background-color: rgba(var(--grey-3),1);
+    border: 1.4px solid rgba(var(--grey-3),1);
+    cursor: pointer;
+    transition: .6s;
+}
+
+.active{
+    display: flex;
+    height: 40px;
+    width: 57px;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: rgba(var(--color-primary),1);
+    color: rgba(var(--grey-2),1);
+    border: 1.4px solid rgba(var(--color-primary),1);
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.active:hover{
+    color: rgba(var(--color-primary),1);
+    background-color: rgba(var(--grey-2),1);
+    border: 1.4px solid rgba(var(--grey-2),1);
+    cursor: pointer;
+    transition: .6s;
+}
+
+.icon-Button{
+    display: flex;
+    height: 44px;
+    width: 44px;
+    border-radius: 8px;
+    padding: 15px;
+    color: rgba(var(--grey-3),1);
+    background-color: rgba(var(--grey-2),1);
+    border: 1.4px solid rgba(var(--grey-2),1);
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-Button:hover{
+    color: rgba(var(--grey-2),1);
+    background-color: rgba(var(--grey-3),1);
+    border: 1.4px solid rgba(var(--grey-3),1);
+    cursor: pointer;
+    transition: .6s;
+}

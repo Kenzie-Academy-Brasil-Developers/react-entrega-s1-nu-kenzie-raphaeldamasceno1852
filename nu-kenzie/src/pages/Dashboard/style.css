@@ -1,0 +1,32 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 39px 59px 50px 100px;
+}
+
+
+@media (max-width: 768px){
+    .content{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .data{
+        display: flex;
+    margin: 20px auto;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+        margin: 20px auto;
+    }
+}
+
+

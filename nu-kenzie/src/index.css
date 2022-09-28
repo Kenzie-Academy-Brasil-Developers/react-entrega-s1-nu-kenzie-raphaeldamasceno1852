@@ -1,0 +1,56 @@
+*{
+  
+  html, body, div, span,h1, h2, h3, p, a, img, small, ul, li, form, label, header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Nunito', sans-serif;
+    
+  }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+
+}
+
+:root{
+  --color-primary: 253,55,126;
+  --color-primari-2: 227, 73, 129;
+  --color-secondary: 3,184,152;
+  --grey-1: 248,249,250;
+  --grey-2: 233,236,239;
+  --grey-3: 134,142,150;
+  --grey-4: 33,37,41;
+  --white: 255,255,255;
+  --regular: 400;
+  --bold: 700;
+  --title-1: 28px;
+  --title-2: 24px;
+  --title-3: 20px;
+  --title-4: 12px;
+  --Headline: 16px;
+  --body: 12px;
+}
+
+/* .dark-Mode:root{
+
+} */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

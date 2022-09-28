@@ -1,0 +1,40 @@
+.money-box{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    background-color: rgba(var(--white),1);
+    width: 22.6rem;
+    border: 1px solid rgba(var(--grey-2), 1);
+    height: 6rem;
+}
+
+.descriptions{
+    box-sizing: border-box;
+    padding: 20px 24px;
+}
+
+.descriptions > h3 {
+    font-size: var(--title-3);
+    font-weight: var(--bold);
+}
+
+.money{
+    box-sizing: border-box;
+    height: 6rem;
+    padding: 20px 24px;
+    text-align: initial;
+}
+
+.money > span {
+    font-size: var(--title-3);
+    font-weight: var(--bold);
+    color: rgba(var(--color-primary), 1);
+}
+
+@media (max-width: 768px){
+.money-box{
+    width: 90%;
+}
+}

@@ -1,0 +1,96 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 21.9rem;
+  width: 22.6rem;
+  border-radius: 4px;
+  background-color: rgba(var(--white), 1);
+  border: 1px solid rgba(var(--grey-2), 1);
+  padding: 38px 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px){
+  .form{
+    width: 90%;
+  }
+}
+
+.inputs {
+  width: 80%;
+  margin: 0 auto;
+  height: 48px;
+  border-radius: 8px;
+  padding: 0px 16px 0px 16px;
+  background-color: rgba(var(--grey-1), 1);
+  border: 2px solid rgba(var(--grey-1), 1);
+}
+
+label {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.mainDiv {
+  display: flex;
+  margin: 0 auto;
+  gap: 5px;
+  width: 90%;
+}
+
+.form > small {
+  align-self: baseline;
+  width: 87%;
+  margin: 0 auto;
+  color: rgba(var(--grey-3), 1);
+}
+
+.divs {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.divs2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.divs > input {
+  width: 80%;
+  margin: 0 auto;
+  height: 48px;
+  border-radius: 8px;
+  padding: 0px 16px 0px 16px;
+  background-color: rgba(var(--grey-1), 1);
+  border: 2px solid rgba(var(--grey-1), 1);
+  color: rgba(var(--grey-3), 1);
+}
+
+.divs2 > label {
+    width: 78%;
+}
+
+.divs2 > select {
+  width: 80%;
+  margin: 0 auto;
+  height: 48px;
+  border-radius: 8px;
+  padding: 0px 16px 0px 16px;
+  background-color: rgba(var(--grey-1), 1);
+  border: 2px solid rgba(var(--grey-1), 1);
+  color: rgba(var(--grey-3), 1);
+}
+
+.divs2 > select > option {
+  width: 80%;
+  margin: 0 auto;
+  height: 48px;
+  border-radius: 8px;
+  padding: 0px 16px 0px 16px;
+  background-color: rgba(var(--grey-1), 1);
+  border: 2px solid rgba(var(--grey-1), 1);
+}
