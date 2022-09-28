@@ -1,11 +1,7 @@
-*{
-  
-  html, body, div, span,h1, h2, h3, p, a, img, small, ul, li, form, label, header{
-    margin: 0;
+html, body, div, span,h1, h2, h3, p, a, img, small, ul, li, form, label, header{
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
     font-family: 'Nunito', sans-serif;
     
@@ -22,7 +18,7 @@ ol, ul {
   list-style: none;
 }
 
-}
+
 
 :root{
   --color-primary: 253,55,126;
